@@ -33,13 +33,14 @@ p {
 }
 
 .header {
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    
-    text-align: center;
+    font-family: arial;
+    text-align: left;
     margin-bottom: 20px;
-    
+    color:#822433;
     & > .titolo {
         font-size: 24pt;
         line-height: 30px;
@@ -47,24 +48,23 @@ p {
 
 }
 
-h1 {
+
+.capitolo {
     font-size: 20pt;
     margin-bottom: 10px;
+    font-family: arial;
 }
 
-h2 {
-    font-size: 20pt;
-    margin-bottom: 10px;
-}
-
-h3 {
+.paragrafo {
     font-size: 14pt;
     margin-bottom: 10px;
+    font-family: arial;
 }
 
-h4 {
+.sottoparagrafo {
     font-size: 13pt;
     margin-bottom: 10px;
+    font-family: arial;
 }
 
 .chapter {
